@@ -2,10 +2,11 @@
 
 ## PROFESSIONAL SUMMARY
 
-- Backend engineer specializing in API development and partner integrations
-- 8+ years at Zapier delivering enterprise features and backend systems using Python, Django, and AWS
-- M.A. in Computational Linguistics with background in natural language processing and machine learning
-- Experience spans API design, data engineering, and maintaining critical integrations with external partners
+- Senior Backend Engineer with 8+ years at Zapier building REST APIs and developing backend services using Python, Django, and AWS
+- Specialized in API development and partner integrations, maintaining critical connections with external platforms
+- 7+ years prior experience in biomedical NLP and computational linguistics, developing statistical models and extraction systems for healthcare applications
+- Founded data engineering function at Zapier, building ETL pipelines and generalizable data quality frameworks
+- M.A. in Computational Linguistics and B.S. in Computer Science
 
 ## WORK EXPERIENCE
 
