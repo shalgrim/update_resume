@@ -13,11 +13,13 @@
 **Zapier, Remote**                                                                January 2017 – October 2025
 *Senior Engineer, Backend (2023-2025) | Integrations Engineer (2019-2023) | Data Engineer (2017-2019)*
 
-- **Founded data engineering function** as Zapier's first Data Engineer, building production Apache Airflow infrastructure on AWS, establishing ETL pipelines ingesting from diverse sources (MySQL databases, REST APIs, SaaS platforms) into Redshift, coordinating with Matillion to organize data warehouse in star schema, and creating data quality framework ("Assertion Machine") enabling cross-organizational analytics.
+- **Founded data engineering function** as Zapier's first Data Engineer, building production ETL infrastructure using Apache Airflow and Matillion on AWS to ingest from diverse sources into Redshift data warehouse organized in star schema.
 
-- **Developed machine learning systems** for support operations: built supervised learning classifiers in Python to categorize and score email difficulty, reducing False Discovery Rate from 6-8% to under 2%; created `/FDR` Slack command for real-time model performance monitoring; deployed ticket difficulty classifier to Kubernetes.
+- **Created "Assertion Machine" data quality framework**, democratizing data quality checks via config files; automated SQL validation and Slack alerts allowed teams to detect data anomalies immediately.
 
-- **Maintained strategic partner integrations** for dozens of apps including Zoom, Slack, Facebook Lead Ads, and Gmail, collaborating directly with partner engineering teams; rescued Zoom integration during pandemic by identifying bugs, migrating code to Zapier control, and shipping New Meeting Registrant trigger (#10 overall feature request); uncovered Slack API bugs through high-volume usage during their API migration, strengthening partnership.
+- **Built supervised learning classifiers** to classify support tickets by difficulty; created real-time model performance monitoring with a Slack slash command.
+
+- **Owned strategic integrations**, including Zoom, Slack, Facebook Lead Ads, and Gmail; overhauled underperforming Zoom integration during pandemic when demand surged; improved Slack's API by surfacing edge cases only visible at high volume.
 
 - **Architected firehose webhook handling** for CLI-based integrations, enabling Zapier platform apps to process account-level event streams from services like Zoom and Slack that don't support per-user webhook subscriptions, unlocking functionality previously limited to monolith-based integrations.
 
