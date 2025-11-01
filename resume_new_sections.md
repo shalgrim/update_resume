@@ -21,7 +21,7 @@
 
 - **Owned strategic integrations**, including Zoom, Slack, Facebook Lead Ads, and Gmail; overhauled underperforming Zoom integration during pandemic when demand surged; improved Slack's API by surfacing edge cases only visible at high volume.
 
-- **Architected firehose webhook handling** for CLI-based integrations, enabling Zapier platform apps to process account-level event streams from services like Zoom and Slack that don't support per-user webhook subscriptions, unlocking functionality previously limited to monolith-based integrations.
+- **Architected firehose webhook handling for CLI apps**, unlocking functionality previously limited to monolith integrations; eliminated custom API requirements for partners like Zoom, enabling dozens of apps to use standard webhook patterns.
 
 - **Delivered enterprise platform features** using Python, Django, and DRF: shipped Alerts system from concept to production as part of Enterprise SKU with optimized performance (reduced p90 from 7s to 3.5s through caching and parallel GraphQL); migrated Notification Rules' heaviest email traffic to Knock for improved resilience, observability, and customization; led QA and architected synchronization layer for Multi-Product Folders (Org Service) to maintain consistency between local database and distributed permissions API.
 
