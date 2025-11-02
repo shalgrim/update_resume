@@ -11,25 +11,32 @@
 ## WORK EXPERIENCE
 
 **Zapier, Remote**                                                                January 2017 – October 2025
-*Senior Engineer, Backend (2023-2025) | Integrations Engineer (2019-2023) | Data Engineer (2017-2019)*
+*Senior Engineer, Backend (2023-2025)*
+
+- **Drove critical workstreams in large-scale Org Service rebuild**, enabling multi-product folder architecture; and architected synchronization layer maintaining data consistency between distributed Permissions API and local database and led overall QA effort.
+
+- **Served as DRI for Alerts feature**, delivering under 2-month deadline by architecting GraphQL front-end solution; led subsequent performance optimization addressing processing bottlenecks.
+
+- **Championed priority email labeling**, securing buy-in for overlooked feature; migrated all email error notifications to Knock, providing resilience during subsequent email outage.
+
+- **Led AI adoption**, recognized as organizational leader in Claude Code usage; produced training demos and evangelized AI-assisted development practices across teams.
+
+- **Merged pull request to Django** fixing async test client bug
+
+*Integrations Engineer (2019-2023)*
+
+
+- **Owned strategic integrations**, including Zoom, Slack, Facebook Lead Ads, and Gmail; overhauled underperforming Zoom integration during pandemic when demand surged; improved Slack's API by surfacing edge cases only visible at high volume.
+
+- **Architected firehose webhook handling for CLI apps**, unlocking functionality previously limited to monolith integrations; eliminated custom API requirements for partners like Zoom, enabling dozens of apps to use standard webhook patterns.
+
+*Data Engineer (2017-2019)*
 
 - **Founded data engineering function** as Zapier's first Data Engineer, building production ETL infrastructure using Apache Airflow and Matillion on AWS to ingest from diverse sources into Redshift data warehouse organized in star schema.
 
 - **Created "Assertion Machine" data quality framework**, democratizing data quality checks via config files; automated SQL validation and Slack alerts allowed teams to detect data anomalies immediately.
 
 - **Built supervised learning classifiers** to classify support tickets by difficulty; created real-time model performance monitoring with a Slack slash command.
-
-- **Owned strategic integrations**, including Zoom, Slack, Facebook Lead Ads, and Gmail; overhauled underperforming Zoom integration during pandemic when demand surged; improved Slack's API by surfacing edge cases only visible at high volume.
-
-- **Architected firehose webhook handling for CLI apps**, unlocking functionality previously limited to monolith integrations; eliminated custom API requirements for partners like Zoom, enabling dozens of apps to use standard webhook patterns.
-
-- **Delivered enterprise platform features** using Python, Django, and DRF: shipped Alerts system from concept to production as part of Enterprise SKU with optimized performance (reduced p90 from 7s to 3.5s through caching and parallel GraphQL); migrated Notification Rules' heaviest email traffic to Knock for improved resilience, observability, and customization; led QA and architected synchronization layer for Multi-Product Folders (Org Service) to maintain consistency between local database and distributed permissions API.
-
-- **Championed AI adoption**, recognized as organizational leader in Claude Code usage, producing training demos and evangelizing AI-assisted development practices that accelerated code reviews, skills test evaluations, and development workflows across engineering teams.
-
-- **Contributed to open source and engineering quality**: submitted accepted pull requests to Django core; implemented disaster recovery plans across services; enhanced testing frameworks; established infrastructure best practices including SonarQube deployment with comprehensive documentation.
-
-- **Developed technical leadership** through mentoring engineers on complex PRs, leading architectural discussions, and conducting technical interviews; recognized for knowledge sharing through documentation, presentations (DjangoCon, internal talks), and cross-team collaboration.
 
 ---
 
