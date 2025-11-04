@@ -42,11 +42,11 @@
 
 ## Technology Stack to Add/Update
 
-**Programming Languages**: Python, Java, C#, SQL, XML, C++, XAML, Golang
-**Frameworks/Packages**: Django, Django REST Framework (DRF), cTAKES (UIMA), GATE, Mallet, NLTK, libSVM, pytest
-**Infrastructure/Cloud**: AWS (SQS, Lambda, RDS, CloudWatch), Apache Airflow, Kubernetes, CDK, Terraform
-**Databases**: PostgreSQL, Redshift, SQL Server, Oracle, MySQL, Microsoft Access, Entity Framework
-**Tools**: Looker, Datadog, Grafana, OpenSearch, OpenAPI, SonarQube
+**Programming Languages**: Python, JavaScript, SQL, Golang, Java, C#
+**Frameworks**: Django, Django REST Framework, Flask
+**Infrastructure/Cloud**: AWS (SQS, Lambda, RDS, CloudWatch), Apache Airflow, Terraform, Kubernetes, CDK
+**Databases**: PostgreSQL, Redshift, SQL Server, MySQL
+**Tools**: OpenAPI, OpenSearch, Datadog, Looker, Grafana
 
 ---
 
