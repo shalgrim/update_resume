@@ -42,10 +42,10 @@
 
 ## Technology Stack to Add/Update
 
-**Programming Languages**: Python, JavaScript, SQL, Golang, Java, C#
+**Programming Languages**: Python, JavaScript, SQL, Java, C#, Golang
 **Frameworks**: Django, Django REST Framework, Flask
 **Infrastructure/Cloud**: AWS (SQS, Lambda, RDS, CloudWatch), Apache Airflow, Terraform, Kubernetes, CDK
-**Databases**: PostgreSQL, Redshift, SQL Server, MySQL
+**Databases**: PostgreSQL, Redshift, MySQL, SQL Server
 **Tools**: OpenAPI, OpenSearch, Datadog, Looker, Grafana
 
 ---
